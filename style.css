@@ -1,0 +1,159 @@
+body {
+    background-color: white;
+    text-align: center;
+}
+
+header {
+    padding: 5px;
+    background-color: rgb(17, 124, 143);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Home > a {
+    margin: 0 5px;
+}
+
+.main {
+    display: flex;
+}
+.main > img {
+   width: 50%;
+}
+
+.text {
+    font-size: 100%;
+    text-align: left;
+}
+
+.image {
+    vertical-align: right;
+}
+
+.signup {
+    margin: 0;
+    font-family: "Arial";
+}
+
+.login {
+    width: 382px;
+    overflow: hidden;
+    margin: auto;
+    margin: 20 0 0 450px;
+    padding: 80px;
+    background: #23463f;
+    border-radius: 15px;
+}
+
+.heading2 {
+    text-align: center;
+    color: #277582;
+    padding: 20px;
+}
+
+label {
+    color: #08ffd1;
+    font-size: 17px;
+}
+
+#Uname {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+
+#Pass {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+
+#log {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: blue;
+}
+
+span {
+    color: white;
+    font-size: 17px;
+}
+
+a {
+    float: right;
+    background-color: grey;
+}
+
+.courses {
+    background-color: rgb(219, 230, 230);
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.my-button {
+    background: aqua;
+    border: 0;
+    padding: 5px 10px;
+    border-radius: 20px;
+    transition: 0.4s ease;
+
+    text-decoration: none;
+  }
+
+.my-button:hover {
+    color: yellow;
+    background-color: black;
+    cursor: pointer;
+}
+.anshuman{
+    display: flex;
+    justify-content: space-around;
+
+}
+.course-title1{
+    background-color: aqua;
+    font-style: inherit;
+
+}
+.stopTrackingButton {
+    content: url('chrome-extension://hbklahkfbghjgbclbfcnhpfmajkagnci/icons/stop.png') !important;
+    width: 16px;
+    height: 16px;
+    right: 38px;
+    position: fixed;
+    cursor: pointer;
+  }
+  .stop
+    {
+        background-color: white;
+        border-radius: 50%;
+        border: 1px solid rgb(18, 55, 111);
+        padding: 10px;
+        width: 100px;
+      }
+      .logo{
+         display:  flex 30%;
+         justify-content: space-between;
+        
+          
+
+      }
+      
+  
+  
+

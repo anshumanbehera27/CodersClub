@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 80vw;    
+    margin: 0 auto;
+    text-align: center;
+}
+
+.start{
+    text-align: right;
+}
+.course-title {
+    background-color: aqua;
+}
+
+/* TODO: Study Flexbox - https://www.freecodecamp.org/learn/responsive-web-design/css-flexbox/use-display-flex-to-position-two-boxes */
+.hero {
+    display: flex;
+    align-items: center;
+}
+.hero__image {
+    width: 50%;
+}
+.hero__text {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__text > p {
+    font-size: medium;
+}
+.set{
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 30%;
+}
+.feature {
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+
+.feature--item {
+    flex-basis: 30%;
+}
+.fol{
+    text-align: right;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content--item {
+    flex-basis: 30%;
+}
+.content--item > img {
+    height: 100px;
+    width: 150px;
+    /* TODO: Study About Object-Fit Cover */
+    object-fit: cover;
+
+    margin-bottom: 10px;
+}
+
+.problem{
+    display: flex;
+    justify-content: space-between;
+}
+.problem--item {
+    flex-basis: 30%;
+}
+.my-button {
+    background: aqua;
+    border: 0;
+    padding: 5px;
+    border-radius: 20px;
+    transition: 0.4s ease;
+
+    text-decoration: none;
+  }
+
+.my-button:hover {
+color: yellow;
+background-color: black;
+cursor: pointer;
+}
+.my-button{
+    background-image: 20%;
+
+}
+.myquestion{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.myquestion--item {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+    align-items: center;
+    justify-content: center;
+}
+.myquestion--item img {
+    width: 100px;
+}
+.textfont{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
